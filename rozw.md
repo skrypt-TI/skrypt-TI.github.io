@@ -133,7 +133,9 @@ int main(){
         for(int x = 0; x < 4 ; x++){
             if ( x == 0 || x == 3 || y == 0 || y == 4){
             	cout<<"#";
-        	}
+        	} else {
+                cout<<" ";
+            }
         }
         cout<<endl;
     }
